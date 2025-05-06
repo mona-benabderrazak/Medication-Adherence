@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+.title{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: #c02323;
+    font-weight: 700;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+   padding: 0;
+    overflow: hidden;
+   background-color: #333;
+}
+
+.bar {
+    margin-left: 30px;
+    float: left;
+}
+
+.rightside {
+    margin-right: 30px;
+    float: right;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+}
+
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #ba3737;
+}
+
+.sidebar {
+    text-align: center;
+    float: left;
+    width: 30%;
+    background: #ccc;
+    padding: 0px;
+    height: auto;
+  }
+  
+  /* Style the list inside the menu */
+  .nav {
+    text-align: center;
+    list-style-type: none;
+    /*border-bottom: #111 solid 1px;*/
+    height: 550px;
+    margin: 0;
+    padding: 0;
+    width: 95px;
+  }
+
+  .bar.item {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .nav .tablink{
+    width: 135%;
+    height: 45px;
+    background: #ccc;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  article {
+    border: 1px solid black;
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: auto; /* only for demonstration, should be removed */
+  }
+  
+  /* Clear floats after the columns */
+  section::after {
+    display: table;
+    clear: both;
+    width: 600px;
+  }
+
+  #Medication, #Records, #Schedule {
+    font-family: "Poppins", sans-serif;
+  }
+
+  table {
+    font-family: "Poppins", sans-serif;
+    border-collapse: collapse;
+    width: 75%;
+  }
+
+  tr::first-line {
+    background-color: #c32e2e;
+    color: white;
+  }
+
+  td, th {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+/*.layout{
+    box-sizing: border-box;
+}*/
+
+.wrapper {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    width: 420px;
+    background: rgba(225, 12, 12, 0.68);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.login .wrapper h2{
+    font-size: 36px;
+    text-align: center;
+}
+
+.register .wrapper h2{
+    font-size: 25px;
+    text-align: center;
+}
+
+.wrapper .input-box{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    margin: 30px 0;
+}
+
+.login, .register{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("");
+    background: linear-gradient(to right, #d4b1b1, #c56b6b);
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}   
+
+.input-box input::placeholder{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+
+.wrap{
+    display: flex;
+    margin-right: 10px;
+}
+
+.wrapper .sumbit-btn{
+    width: 50%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+
+.wrapper .btn2{
+    width: 50%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+}
+
+.wrapper .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.register-link p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/*testing*/
+
+.block {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    width: 420px;
+    background: rgba(22, 137, 209, 0.68);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.block h2{
+    font-size: 20px;
+    text-align: center;
+}
+
+.block .input-box{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    margin: 30px 0;
+}
+
+.block .input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}   
+
+.block .input-box input::placeholder{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+
+.block .wrap{
+    display: flex;
+    margin-right: 10px;
+}
+
+.block .btn{
+    width: 50%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+
+  .container{
+    position: relative;
+    width: 900px;
+    min-height: 450px;
+    margin: 0 auto;
+    padding: 5px;
+    color: #fff;
+    display: flex;
+    border-radius: 10px;
+    background-color: rgba(225, 12, 12, 0.68);
+  }
+
+.left {
+    width: 60%;
+    padding: 20px;
+}
+
+.calender {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #fff;
+}
+
+
+
+
+

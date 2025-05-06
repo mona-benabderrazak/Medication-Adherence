@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h1 class="title">Medication Adherence System</h1>
+
+<!-- the action attribute will be set to the URL
+     where the form will be sent-->
+<!-- have to check credentials before sending to homepage?-->
+<!--need to safe information-->
+ <div class = "login">
+    <div class="wrapper">
+        <form action="homepage.html">
+            <h2>Login</h2>
+            <div class="input-box">
+                <input type="text" id="username" name="username"
+                    placeholder="Username" required><br>
+            </div>
+            <div class="input-box">
+                <input type="password" id="password" name="password"
+                    placeholder="Password" required><br><br>
+            </div>
+            <div class ="wrap">
+                <button type="submit" style='margin-right: 16px' class="btn">Login</button>
+                <button type="submit" style='margin-right: 16px' class="btn2">Login as Provider</button>
+            </div>
+        </form>
+        <div class="register-link">
+            <p>Don't have an account?
+                <a href="register.html" style="text-decoration: none;">
+                    Create an account
+                </a>
+            </p>
+        </div>    
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
